@@ -1,12 +1,12 @@
 # Mygrep  
 
-DSA MINI PROJECT !
-Aditi Medhane 
-111803177
+DSA MINI PROJECT !<br>
+Aditi Medhane <br>
+111803177<br><br>
 
 Implementation of Grep commands[Global Regulation Expression Print]
 
-Aim: To search a file for a prticular string. 
+Aim: To search a file for a particular string. 
 
 **REFERENCE TO VARIOUS FUNCTIONS**
 		
