@@ -1,0 +1,59 @@
+DSA MINI PROJECT !
+
+GREP
+
+Aditi Medhane 
+111803177
+
+Implementation of Grep commands[Global Regulation Expression Print]
+
+Aim: To search a file for a prticular string. 
+
+	grep -r :  traverse through directories and grep
+
+MATCHING CONTROL:
+
+	grep -i :  ignore case distinctions
+
+	grep -v :   select non-matching lines
+
+	grep -w :  Select only those  lines  containing  matches  that  form  whole
+           words.
+
+
+GENERAL OUTPUT:
+	grep -c :  print only a count of matching lines per FILE
+
+*	grep -m :  Stop  reading  a file after NUM(i.e. max_count) matching lines. 
+
+	grep -q :   Do not write  anything  to  standard  output. (QUIETE)
+
+
+OUTPUT LINE PREFIX CONTROL:
+
+	grep -b :   Print the 0-based byte offset within the input file before  each
+                    line of output.
+
+	grep -H :    print the file name for each match
+
+	grep -h : Output matching lines without preceding them by file names
+	
+					*REFERENCE TO VARIOUS FUNCTIONS**
+		
+					
+* The Program uses get_token and mystrstr functions to find the pattern and print the lines containing the pattern.
+
+* get_token divides the file content into single lines and seearches for the pattern.
+
+* mystrstr searches for the pattern and then prints the line if the pattern is found.
+
+* Various options implemented are shown in ./mygrep -h. 
+
+* -r option which traverses through directories.
+  It is implemented in dir.c. dirent.h is used to do so.
+  mystrstrcase function ignores case to search pattern.
+	
+	
+	
+	
+	
