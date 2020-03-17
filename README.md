@@ -13,9 +13,7 @@ Aim: To search a file for a particular string.
 					
 * The Program uses get_token and mystrstr functions to find the pattern and print the lines containing the pattern.
 
-* get_token divides the file content into single lines and seearches for the pattern.
-
-* mystrstr searches for the pattern and then prints the line if the pattern is found.
+* get_token divides the file content into single lines and searches for the pattern.
 
 * Various options implemented are shown in ./mygrep -h. 
 
